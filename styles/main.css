@@ -1,0 +1,75 @@
+div.game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 20vw;
+    height: 20vw;
+}
+
+.game-cell {
+    width: 8vw;
+    height: 7vw;
+    border: 1px solid ;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 3px;
+    background: black;
+}
+
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+.game-container {
+    margin-left: 32%;
+    margin-top:15%;
+}
+#header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+ div > img {
+     height: 100px;
+ }
+ #logo {
+     position: absolute;
+     left: 44%;
+     top: 5%;
+ }
+ .row1 {
+     text-align: center;
+     font-family: 'Exo 2';
+     color: #79251B !important;
+     padding-top: 30%;
+     font-size: 1.2vw;
+ }
+.row2 {
+    text-align: center;
+    font-family: 'Exo 2';
+    color: #7C7A5B !important;
+    padding-top: 30%;
+    font-size: 1.2vw;
+}
+.row3 {
+    text-align: center;
+    font-family: 'Exo 2';
+    color: #7A6605 !important;
+    padding-top: 30%;
+    font-size: 1.2vw;
+}
+.row4 {
+    text-align: center;
+    font-family: 'Exo 2';
+    color: #640405 !important;
+    padding-top: 30%;
+    font-size: 1.2vw;
+}
+body {
+    background: url("../bg.jpg");
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
