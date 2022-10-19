@@ -37,6 +37,8 @@ body {
      position: absolute;
      left: 44%;
      top: 5%;
+     width: 50%;
+     height: auto;
  }
  .row1 {
      text-align: center;
